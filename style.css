@@ -53,13 +53,13 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: var(--primary);
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-links li a:hover {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 .menu-toggle {
